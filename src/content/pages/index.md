@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: MOKS AUTO
 tagline: Automotive Repair Company
-featuredImage: https://www.moksauto.com/images/banner/spannerss.webp
+featuredImage: /assets/spanners.jpg
 cta:
   ctaText: Know More
   ctaLink: /about
