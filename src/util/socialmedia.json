@@ -2,15 +2,15 @@
   "socialIcons": [
     {
       "icon": "facebook",
-      "url": "https://www.facebook.com/stackrolecom"
-    },
-    {
-      "icon": "instagram",
-      "url": "https://www.instagram.com/stackrole/"
+      "url": "https://www.facebook.com/moksauto"
     },
     {
       "icon": "linkedin",
-      "url": "https://in.linkedin.com/company/stackrole"
+      "url": "https://in.linkedin.com/company/moksauto"
+    },
+    {
+      "icon": "instagram",
+      "url": "https://www.instagram.com/moksauto"
     }
   ]
 }
