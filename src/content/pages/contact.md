@@ -1,9 +1,12 @@
 ---
 template: contact-page
 slug: /contact
-title: Get in touch
+title: Contact Moks Auto
 ---
+Got a car that broke down ? A key you lost ? An electrical fault ? A service due ? 
 
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
+Need a new Vehicle ? or just anything automotive related ? 
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+We are happy to help.
+
+Just send us a message using the form below or you can call us on our mobile number
