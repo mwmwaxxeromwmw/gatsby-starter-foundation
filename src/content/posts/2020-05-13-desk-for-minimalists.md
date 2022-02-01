@@ -1,10 +1,11 @@
 ---
 template: blog-post
-title: Desk for minimalists
-slug: /minimalists-desk
-date: 2020-05-13 12:46
-description: sdasd
-featuredImage: /assets/bench-accounting-nvzvopqw0gc-unsplash.jpg
+title: Mercedes Benz 500SL Restoration
+slug: /500SL
+date: 2022-02-01 10:26
+description: Restoration of a Mercedes Benz 500SL - after having stayed for over
+  10 years, in Blantyre Malawi, by Moks Auto
+featuredImage: /assets/500sl.jpg
 ---
 
 Uh, is the puppy mechanical in any way? Maybe I love you so much I love you no matter who you are pretending to be. If rubbin' frozen dirt in your crotch is wrong, hey I don't wanna be right. I found what I need. And it's not friends, it's things.
