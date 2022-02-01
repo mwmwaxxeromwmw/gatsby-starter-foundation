@@ -15,7 +15,7 @@ const NotFound = () => (
       }}
     >
       <header>
-        <RiSkullLine
+        <RiCarWashingLine
           style={{
             fontSize: "128px",
             color: "var(--primary-color)",
