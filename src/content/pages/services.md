@@ -1,6 +1,6 @@
 ---
 template: service-page
 slug: /services
-title: Services Offed
+title: Services Offered
 ---
 ...To Be Added...
