@@ -10,6 +10,6 @@ We were called to diagnose a Ford ranger that had a no crank, no start condition
 
 Since the vehicle had been played around with, the immobilizer system - which on this Ranger, consists of the PCM, the BCM and PATS keys.
 
-We first programmed 2 keys to the PATS sytem and then paired the BCM and PCM using Ford's OEM tool IDS. Even after programming new valid keys and pairing the BCM & PCM to the PATS system, the car would crank but not start, this was due to defective wiring from the pump to the BCM, which we then resolved.
+We first programmed 2 keys to the PATS sytem and then paired the BCM and PCM using Ford's OEM tool IDS. Even after programming new valid keys and pairing the BCM & PCM to the PATS system, the car would crank but not start, this was due to defective wiring between the fuel pump and the BCM, which we then resolved.
 
 The car is cranking & starting perfectly now.
