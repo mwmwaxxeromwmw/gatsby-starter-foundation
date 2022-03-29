@@ -11,6 +11,6 @@ We were called to diagnose a DAF CF65 that had a symptom where it would simply s
 
 We started off by first looking at fault codes, since this DAF uses a Cummins ISBe engine, Cummin's oem tool - Insite was used to check for fault codes, surprisingly, this truck had quite a few inactive fault codes mostly related to fuel pressure and leaks.
 
-Whenever we have such faults, rail pressure is checked using a pressure guage, which we did and all checked out at idle, but since this fault was intermittent, we looked at other variables such as the fuel pump, lift pump, filter and such - and found out that the filter itself was clogged.
+Whenever we have such faults, rail pressure is checked using a manometer, which we did and all checked out at idle, but since this fault was intermittent, we looked at other variables such as the high-pressure pump, fuel filter and such - and found out that the filter itself was clogged.
 
 This fault was rectified buy replacing the clogged filter and clearing all inactive faults.
