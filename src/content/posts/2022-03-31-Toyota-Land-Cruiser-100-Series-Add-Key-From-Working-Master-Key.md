@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Toyoya Land Cruiser 100 Series - Adding a key from a working master key
+title: Toyoya Land Cruiser 100 Series - Adding a key from a working key
 slug: /100serieskey-1
 date: 2022-03-31 12:00
 description: A key was made and programmed for a Land Cruiser 100 series - by MOK'S AUTO
