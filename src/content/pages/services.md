@@ -3,12 +3,12 @@ template: service-page
 slug: /services
 title: Services Offered
 ---
-- Advanced diagnostis & repairs for ***12 & 24 volt***, ***light & heavy duty*** vehicles.
+- Advanced diagnosis & repairs for ***12 & 24 volt***, ***light & heavy duty*** vehicles.
 
-- Coding, programming & tuning of vehicle control modules.
+- Coding, programming & tuning of vehicle control modules or mechatronics.
 
 - ECU repairs, ***control module replacement & programming***.
 
-- General maintenance & repairs.
+- General service & maintenance.
 
-- Immobilizer & Locksmith work - ***all keys lost & adding keys***, cutting & programming vehicle keys or fobs.
+- Immobilizer & Locksmith work - ***all keys lost & adding keys***, cutting & programming vehicle keys, remotes or fobs.
