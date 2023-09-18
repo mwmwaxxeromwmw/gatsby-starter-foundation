@@ -2,7 +2,7 @@
 template: blog-post
 title: ERF EC11 - No throttle response after ECU replacement
 slug: /ERF-1
-date: 2023-07-01 11:45
+date: 2023-08-27 11:45
 description: No acceleration, ERF EC11 - fixed by MOK'S AUTO
 featuredImage: /assets/ERC-EC11.jpg
 ---
