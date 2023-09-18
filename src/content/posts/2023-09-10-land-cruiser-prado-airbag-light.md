@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Land Cruiser Prado - airbag light on
-slug: /Mini-1
+slug: /PRADO-1
 date: 2023-09-05 11:45
 description: Land cruiser Prado airbag light on - fixed by MOK'S AUTO
 featuredImage: /assets/PRADO.jpg
