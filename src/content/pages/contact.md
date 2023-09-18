@@ -9,4 +9,4 @@ Need a new Vehicle ? or just anything automotive related ?
 
 We will be glad to help.
 
-Just send us a message using the form below or you can call us on our mobile number
+Call us on 0881725424/0999935101 or you can send us a message using the form below

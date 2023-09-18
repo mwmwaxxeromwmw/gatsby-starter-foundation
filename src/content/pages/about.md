@@ -7,6 +7,6 @@ Moks Auto is a professionally backed automotive electronics repair company based
 
 Moks Auto and its employees only adhere to and with expertise, experience and well-equipped tools backed by a proficient cooperative administrative team. 
 
-Moks Auto deals with various multi-brands of both light and heavy duty diesel & petrol, 12 volts & 24 volts vehicles and other automotive related vehicles and/or equipment, whose services range from diagnostics & repairs, maintenance/service, coding, programming, locksmithing/immobilizers/all keys lost. 
+Moks Auto deals with various multi-brands of both light and heavy duty diesel & petrol, 12 & 24 volt vehicles and other automotive related vehicles and/or equipment, whose services range from diagnostics & repairs, maintenance/service, coding, programming, locksmithing/immobilizer/all keys lost. 
 
 Moks Auto is ever striving for a better today & tomorrow by aiding Malawi's automotive electronics industry.
