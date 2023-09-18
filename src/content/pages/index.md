@@ -8,4 +8,4 @@ cta:
   ctaText: Find Out More
   ctaLink: /about
 ---
-Malawi's ***leading*** automotive repair company, based in **Blantyre**.
+Malawi's ***leading*** automotive electronics repair company, based in **Blantyre**.
