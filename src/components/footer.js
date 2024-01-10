@@ -10,7 +10,7 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-      <small>&copy; Copyright 2023, Moks Auto. All Rights Reserved</small>
+      <small>&copy; Copyright 2024, Moks Auto. All Rights Reserved</small>
       </p>
     </div>
   </footer>
