@@ -8,7 +8,7 @@ featuredImage: /assets/ACTROS.jpg
 ---
 We were called to diagnose a Mercedes Benz Actros MP2 W934.161 with the OM501LA engine and a complaint of low power output and a MR warning light in the instrument cluster.
 
-Before physically inspecting potential issues or tilting the cab, using sofisticated tools, the MR was queried for fault codes and there was a DTC stord for the crankshaft position sensor.
+Before physically inspecting potential issues or tilting the cab, using sophisticated tools, the MR was queried for fault codes and there was a DTC stored for the crankshaft position sensor.
 
 ![MP2-CKP](/assets/MP2-CKP.jpg "MP2-CKP")
 
