@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: Scania - Intermittent engine shutdown - Diagnostic & repair
+title: Scania R420 Intermittent engine shutdown - Diagnostic & repair
 slug: /scania-1
 date: 2024-01-10 11:45
 description: Scania intermittent engine shutdown - diagnosed and repaired by MOK'S AUTO
@@ -22,12 +22,3 @@ We then bench tested the EMS, and we were able to reproduce the symptoms - now t
 Once the EMS arrived through DHL, we programmed it to the truck without the need to replace the wholse set such as the COO and so on, which guaranteed factory coding and not losing any configurations/codings whatsoever.
 
 The truck was sent on a road test and returned with no faults whatsoever, the client was delighted to have his truck up and running without any pointless parts replacements or trial and error work!
-
-
-
-
-![F30-320i-DME](/assets/F30-320i-DME.jpg "F30-320i-DME")
-
-After doing so, the vehicle was now able to select gears and everything was operational as before the donor lockset was used.
-
-The client was delighted to have his vehicle selecting gears and fully operational but was disappointed at the fact he did not know how the system on his vehicles operates, but now he does!
