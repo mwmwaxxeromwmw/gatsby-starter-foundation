@@ -6,11 +6,11 @@ date: 2024-01-10 11:45
 description: Scania intermittent engine shutdown - diagnosed and repaired by MOK'S AUTO
 featuredImage: /assets/SCANIA-R.jpg
 ---
-We were called to diagnose a Scania R420 with a customer complaint that it would sometimes shut the engine off whilst driving and would take some tim until it would be possible to restart the engine.
+We were called to diagnose a Scania R420 with a customer complaint that the engine would intermittently turn off whilst driving and would take some time until it would be possible to restart the engine.
 
-As the truck was a daily runner, the client wanted the truck to be diagnosed and repaired as soon as possible, we started off with the basics and confirmed the fault by taking the truck on a road test and indeed it would intermittently shutdown and would take time to restart.
+As the truck was a daily runner, the client wanted the truck to be diagnosed and repaired as soon as possible, we started off with the basics and confirmed the fault by taking the truck on a road test and confirmed it would intermittently shutdown and take time to restart.
 
-When it did shut down, we queried the EMS (engine management system) for fault codes using our dealer scania scan tool and to our surprise the EMS would not communicate, this test was repeated when the truck was able to start and communication was restored with no fault codes.
+When it did shut down, we queried the EMS (engine management system) for fault codes using our dealer Scania scan tool and to our surprise the EMS would not communicate, this test was repeated when the truck was able to start and communication was restored with no fault codes.
 
 ![EMS-EMD1](/assets/EMD1.jpg "EMS-EMD1")
 

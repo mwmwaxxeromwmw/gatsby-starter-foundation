@@ -24,6 +24,6 @@ The original FEM data was processed which allowed us to use the donor DME and in
 
 The donor DME after processing was put back on the vehicle, flashed and coded according to the vehicle's istep level and FEM vehicle order.
 
-After doing so, the vehicle was now able to select gears and everything was operational as before the donor lockset was used.
+After doing so, the vehicle was now able to select gears and everything was operational as before.
 
-The client was delighted to have his vehicle selecting gears and fully operational but was disappointed at the fact he did not know how the system on his vehicles operates, but now he does!
+The client was delighted to have his vehicle selecting gears and fully operational but was disappointed at the fact he did not know how the system on his vehicle operates, however, now he does!
