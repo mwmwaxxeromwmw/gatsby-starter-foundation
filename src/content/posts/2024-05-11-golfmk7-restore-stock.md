@@ -1,4 +1,3 @@
-
 ---
 template: blog-post
 title: GOLF MK7 - Turbo killed due to wrong map tune, stock map recovery
