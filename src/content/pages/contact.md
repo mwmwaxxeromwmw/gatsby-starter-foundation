@@ -2,9 +2,6 @@
 template: contact-page
 slug: /contact
 title: Contact Moks Auto
-cta:
-  ctaText: Whatsapp
-  ctaLink: /whatsapp
 ---
 Got a car or truck that broke down ? A key you lost ? An electrical fault ? A service due ? 
 

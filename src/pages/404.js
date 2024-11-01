@@ -30,9 +30,6 @@ const NotFound = () => (
         <RiArrowLeftSLine className="icon -left" />
         Back to Homepage
       </Link>
-      <Link to="/contact" className="button -outline">
-        Report this <RiBugLine className="icon -right" />
-      </Link>
     </div>
   </Layout>
 )
