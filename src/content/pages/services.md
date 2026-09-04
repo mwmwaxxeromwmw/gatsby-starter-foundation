@@ -11,4 +11,4 @@ title: Services Offered
 
 - Immobilizer & Locksmith work - ***all keys lost & adding keys***, cutting & programming vehicle keys, remotes or fobs.
 
-- General service & maintenance.
+- General service, maintenance & tune-ups.

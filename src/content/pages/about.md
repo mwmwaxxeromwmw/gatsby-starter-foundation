@@ -3,7 +3,7 @@ template: about-page
 slug: /about
 title: About Moks Auto
 ---
-Moks Auto is a professionally backed automotive electrical & electronics repair company based in Blantyre, Malawi. With experience in the industry for over 15 years.
+Moks Auto are professionally backed automotive repair specialists based in Blantyre, Malawi. With experience in the industry for over 15 years.
 
 Moks Auto and its employees only adhere to and with expertise, experience and well-equipped tools backed by a proficient cooperative team. 
 
