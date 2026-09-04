@@ -1,7 +1,7 @@
 ---
 template: blog-post
-title: MAZDA CX5 LANGUAGE CHANGE
-slug: /CX5-LANGUAGE-CHANGE-1
+title: MAZDA CX5 INSTRUMENT CLUSTER LANGUAGE CHANGE
+slug: /CX5-IC-LANGUAGE-CHANGE-1
 date: 2025-02-01 11:45
 description: MAZDA CX5 LANGUAGE CHANGE by MOKS AUTO
 featuredImage: /assets/CX5-JAP-CLUSTER.jpg
@@ -15,4 +15,4 @@ This was before we made changes/as-is when the client brought it to us.
 
 ![CX5-AFTER](/assets/CX5-AFTER.jpg "AFTER LANGUAGE CHANGE")
 
-This is after we made changes and wrote back to cluster, the client was very happy with the changes.
+This is after we made changes and wrote back to cluster, the client was very happy with the changes as most in Malawi were telling them it is a dealer-only job.
