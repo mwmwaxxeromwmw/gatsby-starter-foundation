@@ -91,7 +91,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: settings.ga,
+        // Explicitly wrapping the json string value inside the array
+        trackingIds: [
+          `${settings.ga}`
+        ],
         pluginConfig: {
           head: true,
         },
