@@ -89,9 +89,12 @@ module.exports = {
     "gatsby-plugin-theme-ui",
     `gatsby-plugin-netlify-cms`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: settings.ga,
+        trackingIds: settings.ga,
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     `gatsby-plugin-sitemap`,
