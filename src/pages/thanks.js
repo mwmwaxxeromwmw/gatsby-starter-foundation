@@ -24,7 +24,7 @@ const Thanks = () => (
       <p>Thank you for contacting Moks Auto. We will get back to you shortly.</p>
       <Link to="/" className="button">
         <RiArrowLeftSLine className="icon -left" />
-        Lets go back to the homepage
+        Let's go back to the homepage
       </Link>
     </div>
   </Layout>
