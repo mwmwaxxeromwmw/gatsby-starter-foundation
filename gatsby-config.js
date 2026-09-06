@@ -48,7 +48,7 @@ module.exports = {
               loading: "lazy",
             },
           },
-,
+          
           `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-prismjs`,
