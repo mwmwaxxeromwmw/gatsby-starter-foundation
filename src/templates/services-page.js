@@ -88,7 +88,7 @@ const styles = {
   introTitle: {
     fontSize: "22px",
     mb: 2,
-    color: "primary",
+    color: "text",
     fontWeight: "600",
   },
   introParagraph: {
@@ -149,7 +149,7 @@ const styles = {
     gap: 2,
   },
   checkmark: {
-    color: "primary",
+    color: "#10b981",
     fontWeight: "bold",
   }
 }
