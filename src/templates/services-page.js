@@ -93,7 +93,7 @@ const styles = {
   container: {
     maxWidth: "1100px",
     margin: "0 auto",
-    padding:,
+    padding: 0,
   },
   mainTitle: {
     fontSize: ["32px", "42px"],
