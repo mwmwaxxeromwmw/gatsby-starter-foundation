@@ -1,14 +1,35 @@
 ---
-template: service-page
+template: services-page
 slug: /services
-title: Services Offered
+title: Our Premium Services
+description: Highly specialized automotive diagnostics, module programming, performance tuning, and locksmith services in Blantyre, Malawi.
 ---
-- Advanced computer aided diagnosis & repairs for ***12 & 24 volt***, ***light & heavy duty*** vehicles.
 
-- Repair, Coding & programming of automotive control modules and other equipment.
+### Advanced Tooling. Expert Precision.
+At Moks Auto, we don't just clear error codes—we provide dealership-level diagnostics, custom engine control module (ECM) flashing, and advanced security modifications using industry-leading engineering equipment.
 
-- Tuning (includes but not limited to ***power & torque increase/decrease, fuel consumption calibration***) & Emissions deletes (includes but not limited to ***ADBLUE, CATALYST, DPF, EGR, FAP, FLAPS, GPF, INTAKE MANIFOLD RUNNERS, NOX, SAP, TVA, VNT***).
+:::service-cards
+#### Advanced Diagnostics & Repair
+Get factory-level deep scans that generic code readers miss. We pin down complex electrical faults, sensor failures, and mechanical gremlins to fix the root cause.
+* Dealership-level scanning
+* Live data logging & analysis
+* Complex electrical tracing
 
-- Immobilizer & Locksmith work - ***all keys lost & adding keys***, cutting & programming vehicle keys, remotes or fobs.
+#### Performance Tuning & Deletes
+Optimize your machine's efficiency, power output, and torque delivery. We safely adjust engine mapping parameters for heavy-duty transports or personal cars traveling long Malawian roads.
+* Stage 1 & 2 ECU Remapping
+* DPF / EGR / AdBlue software deletes
+* Improved fuel economy mapping
 
-- General service, maintenance & tune-ups.
+#### Module Coding & Flashing
+When control units fail or need upgrades, we program them to match your vehicle's network perfectly. We handle complex flashing parameters that regular workshops cannot touch.
+* ECU / ECM adaptation & pairing
+* Component protection removal
+* Software rollbacks & updates
+
+#### Auto Locksmith & Security
+Stranded with lost keys or an immobilized engine? We cut, flash, and program transponder keys and modules on-site to get your vehicle safely back in motion.
+* "All Keys Lost" emergency support
+* Transponder key programming
+* Immobilizer module alignment
+:::
