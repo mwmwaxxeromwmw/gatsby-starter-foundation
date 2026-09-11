@@ -8,10 +8,16 @@ export const pageQuery = graphql`
   query ServicesQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
       frontmatter {
         title
         description
+        introTitle
+        introText
+        servicesList {
+          title
+          description
+          bullets
+        }
       }
     }
   }
@@ -19,60 +25,32 @@ export const pageQuery = graphql`
 
 const ServicesPage = ({ data }) => {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
-
-  // Split the intro content from the card block safely using array positions
-  const splitContent = html.split(":::service-cards")
-  const topIntroHtml = splitContent[0] || ""
-  const cardsHtmlRaw = splitContent[1] ? splitContent[1].replace(":::", "") : ""
-
-  // Parse HTML strings into neat card object layers
-  const cardsData = cardsHtmlRaw
-    ? cardsHtmlRaw
-      .split("<h4>")
-      .filter(Boolean)
-      .map((item) => {
-        const parts = item.split("</h4>")
-        const title = parts[0] || ""
-
-        const bodyParts = parts[1] ? parts[1].split("<ul>") : [""]
-        const description = bodyParts[0] || ""
-
-        const bullets = bodyParts[1]
-          ? bodyParts[1]
-            .replace("</ul>", "")
-            .split("<li>")
-            .filter(Boolean)
-            .map(li => li.replace("</li>", "").trim())
-          : []
-
-        return { title, description, bullets }
-      })
-    : []
+  const { frontmatter } = markdownRemark
+  const { title, description, introTitle, introText, servicesList = [] } = frontmatter
 
   return (
     <Layout className="services-page">
-      <Seo title={frontmatter.title} description={frontmatter.description} />
-
+      <Seo title={title} description={description} />
+      
       <div sx={styles.container}>
-        <h1 sx={styles.mainTitle}>{frontmatter.title}</h1>
+        <h1 sx={styles.mainTitle}>{title}</h1>
+        
+        {/* Safe Top Intro Section */}
+        <div sx={styles.introContainer}>
+          <h3 sx={styles.introTitle}>{introTitle}</h3>
+          <p sx={styles.introParagraph}>{introText}</p>
+        </div>
 
-        <div
-          sx={styles.introText}
-          dangerouslySetInnerHTML={{ __html: topIntroHtml }}
-        />
-
+        {/* Clean, Glitch-Free Card Grid */}
         <div sx={styles.gridContainer}>
-          {cardsData.map((card, index) => (
+          {servicesList.map((service, index) => (
             <div key={index} sx={styles.serviceCard}>
-              <h3 sx={styles.cardTitle}>{card.title}</h3>
-              <div
-                sx={styles.cardDescription}
-                dangerouslySetInnerHTML={{ __html: card.description }}
-              />
-              {card.bullets.length > 0 && (
+              <h3 sx={styles.cardTitle}>{service.title}</h3>
+              <p sx={styles.cardDescription}>{service.description}</p>
+              
+              {service.bullets && service.bullets.length > 0 && (
                 <ul sx={styles.bulletList}>
-                  {card.bullets.map((bullet, idx) => (
+                  {service.bullets.map((bullet, idx) => (
                     <li key={idx} sx={styles.bulletItem}>
                       <span sx={styles.checkmark}>✓</span> {bullet}
                     </li>
@@ -93,7 +71,7 @@ const styles = {
   container: {
     maxWidth: "1100px",
     margin: "0 auto",
-    padding: 0,
+    padding:1,
   },
   mainTitle: {
     fontSize: ["32px", "42px"],
@@ -102,22 +80,23 @@ const styles = {
     mb: 3,
     color: "text",
   },
-  introText: {
-    fontSize: ["16px", "18px"],
-    lineHeight: "1.7",
+  introContainer: {
     textAlign: "center",
     maxWidth: "750px",
     margin: "0 auto 4rem auto",
+  },
+  introTitle: {
+    fontSize: "22px",
+    mb: 2,
+    color: "primary",
+    fontWeight: "600",
+  },
+  introParagraph: {
+    fontSize: ["16px", "18px"],
+    lineHeight: "1.7",
     color: "text",
     opacity: 0.85,
-    p: {
-      m: 0,
-    },
-    h3: {
-      fontSize: "22px",
-      mb: 2,
-      color: "primary",
-    }
+    m: 0,
   },
   gridContainer: {
     display: "grid",
@@ -151,11 +130,8 @@ const styles = {
     fontSize: "15px",
     lineHeight: "1.6",
     color: "text",
-    opacity: 0.9,
-    mb: 3,
-    p: {
-      m: 0
-    }
+    opacity: 0.85,
+    mb: 4,
   },
   bulletList: {
     listStyle: "none",
