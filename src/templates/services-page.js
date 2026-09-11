@@ -29,46 +29,46 @@ const ServicesPage = ({ data }) => {
   // Parse HTML strings into neat card object layers
   const cardsData = cardsHtmlRaw
     ? cardsHtmlRaw
-        .split("<h4>")
-        .filter(Boolean)
-        .map((item) => {
-          const parts = item.split("</h4>")
-          const title = parts[0] || ""
-          
-          const bodyParts = parts[1] ? parts[1].split("<ul>") : [""]
-          const description = bodyParts[0] || ""
-          
-          const bullets = bodyParts[1]
-            ? bodyParts[1]
-                .replace("</ul>", "")
-                .split("<li>")
-                .filter(Boolean)
-                .map(li => li.replace("</li>", "").trim())
-            : []
+      .split("<h4>")
+      .filter(Boolean)
+      .map((item) => {
+        const parts = item.split("</h4>")
+        const title = parts[0] || ""
 
-          return { title, description, bullets }
-        })
+        const bodyParts = parts[1] ? parts[1].split("<ul>") : [""]
+        const description = bodyParts[0] || ""
+
+        const bullets = bodyParts[1]
+          ? bodyParts[1]
+            .replace("</ul>", "")
+            .split("<li>")
+            .filter(Boolean)
+            .map(li => li.replace("</li>", "").trim())
+          : []
+
+        return { title, description, bullets }
+      })
     : []
 
   return (
     <Layout className="services-page">
       <Seo title={frontmatter.title} description={frontmatter.description} />
-      
+
       <div sx={styles.container}>
         <h1 sx={styles.mainTitle}>{frontmatter.title}</h1>
-        
-        <div 
+
+        <div
           sx={styles.introText}
-          dangerouslySetInnerHTML={{ __html: topIntroHtml }} 
+          dangerouslySetInnerHTML={{ __html: topIntroHtml }}
         />
 
         <div sx={styles.gridContainer}>
           {cardsData.map((card, index) => (
             <div key={index} sx={styles.serviceCard}>
               <h3 sx={styles.cardTitle}>{card.title}</h3>
-              <div 
-                sx={styles.cardDescription} 
-                dangerouslySetInnerHTML={{ __html: card.description }} 
+              <div
+                sx={styles.cardDescription}
+                dangerouslySetInnerHTML={{ __html: card.description }}
               />
               {card.bullets.length > 0 && (
                 <ul sx={styles.bulletList}>
