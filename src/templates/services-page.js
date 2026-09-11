@@ -21,23 +21,22 @@ const ServicesPage = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
 
-  // We split the parsed text columns by using our unique token separator from the markdown
+  // Split the intro content from the card block safely using array positions
   const splitContent = html.split(":::service-cards")
-  const topIntroHtml = splitContent[0]
+  const topIntroHtml = splitContent[0] || ""
   const cardsHtmlRaw = splitContent[1] ? splitContent[1].replace(":::", "") : ""
 
-  // Parse the simple markdown items into distinct cards array groups cleanly
+  // Parse HTML strings into neat card object layers
   const cardsData = cardsHtmlRaw
     ? cardsHtmlRaw
         .split("<h4>")
         .filter(Boolean)
         .map((item) => {
           const parts = item.split("</h4>")
-          const title = parts[0]
+          const title = parts[0] || ""
           
-          // Split features from descriptions if bullet marks exist
           const bodyParts = parts[1] ? parts[1].split("<ul>") : [""]
-          const description = bodyParts[0]
+          const description = bodyParts[0] || ""
           
           const bullets = bodyParts[1]
             ? bodyParts[1]
@@ -58,13 +57,11 @@ const ServicesPage = ({ data }) => {
       <div sx={styles.container}>
         <h1 sx={styles.mainTitle}>{frontmatter.title}</h1>
         
-        {/* Top Intro Section */}
         <div 
           sx={styles.introText}
           dangerouslySetInnerHTML={{ __html: topIntroHtml }} 
         />
 
-        {/* Dynamic Responsive Theme UI Grid */}
         <div sx={styles.gridContainer}>
           {cardsData.map((card, index) => (
             <div key={index} sx={styles.serviceCard}>
@@ -128,7 +125,7 @@ const styles = {
     gap: 4,
   },
   serviceCard: {
-    bg: "surface", // Hooks directly into your theme configuration's layout structure
+    bg: "surface",
     p: 4,
     borderRadius: "12px",
     boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.03)",
@@ -176,7 +173,7 @@ const styles = {
     gap: 2,
   },
   checkmark: {
-    color: "primary", // Uses your accent brand maroon tone beautifully
+    color: "primary",
     fontWeight: "bold",
   }
 }
