@@ -51,7 +51,7 @@ const Contact = ({ data }) => {
           <p sx={contactStyles.mapLabel}>Serving Blantyre and surrounding regions across Malawi.</p>
           <div sx={contactStyles.mapFrame}>
             <div sx={contactStyles.mapPlaceholderText}>
-              🗺️ <strong>Moks Auto Workshop Hub</strong><br />
+              🗺️ <strong>Moks Auto</strong><br />
               Blantyre, Malawi<br />
               <span sx={{ fontSize: "13px", opacity: 0.8 }}>Dealership-Level Diagnostics & Mobile Locksmith Services</span>
             </div>
@@ -87,7 +87,7 @@ const Contact = ({ data }) => {
                   <input 
                     type="tel" 
                     name="phone" 
-                    placeholder="e.g. 0881725424" 
+                    placeholder="e.g. 0881234567" 
                     inputMode="numeric"
                     maxLength={10}
                     pattern="[0-9]{10}"
@@ -107,7 +107,7 @@ const Contact = ({ data }) => {
                     <option value="">-- Select a Category --</option>
                     <option value="Diagnostics & Repairs">🛠️ Advanced Diagnostics & Repair</option>
                     <option value="Performance Tuning & Deletes">⚡ Performance Tuning & Deletes</option>
-                    <option value="ECU Coding & Programming">💻 Module Coding & Flashing</option>
+                    <option value="ECU Coding & Programming">💻 Module Repair, Coding & Flashing</option>
                     <option value="Locksmith & Immobilizer">🔒 Auto Locksmith & Security</option>
                     <option value="General Maintenance">🔧 General Service & Tune-up</option>
                   </select>
@@ -185,7 +185,7 @@ const contactStyles = {
     color: "text",
     opacity: 0.9,
     a: {
-      color: "primary",
+      color: "text",
       fontWeight: "bold",
       textDecoration: "none",
       "&:hover": {
