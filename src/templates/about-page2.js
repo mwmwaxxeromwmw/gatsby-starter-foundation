@@ -137,7 +137,7 @@ const styles = {
   statNumber: {
     fontSize: "36px",
     fontWeight: "800",
-    color: "primary", // Uses your premium maroon color for the big numbers
+    color: "text", // Uses your premium maroon color for the big numbers
     mb: 1,
   },
   statLabel: {
