@@ -12,12 +12,14 @@ stats:
     label: "Advanced Diagnostics"
   - number: "Multi"
     label: "Brand Capability"
-featuresTitle: Why Drivers Choose Moks Auto
+featuresTitle: Why People Choose Moks Auto
 featuresList:
   - title: "Advanced Technical Tooling"
     description: "We don't guess; we know. Our workshop uses the same highly specialized diagnostic interfaces and engineering software as corporate dealerships to pinpoint exact faults."
   - title: "ECU Tuning & Remapping"
     description: "We specialize in custom engine management software calibration, helping logistics fleets reduce fuel consumption and personal cars achieve optimal performance for long roads."
+  - title: "Module Repair & Cloning"
+    description: "We offer module repairs and cloning, helping you reduce dealer level costs"
   - title: "Emergency Locksmith Support"
     description: "Lost all keys or dealing with a corrupted vehicle immobilizer system? Our mobile unit matches new transponder keys and modules on-site to get you moving fast."
 ---

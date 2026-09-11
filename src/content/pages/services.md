@@ -20,8 +20,8 @@ servicesList:
       - "DPF / EGR / AdBlue software deletes"
       - "Improved fuel economy mapping"
 
-  - title: "Module Coding & Flashing"
-    description: "When control units fail or need upgrades, we program them to match your vehicle's network perfectly. We handle complex flashing parameters that regular workshops cannot touch."
+  - title: "Module Repair, Cloning, Coding & Flashing"
+    description: "When control units fail or need upgrades, we can repair or program them to match your vehicle's network perfectly. We handle complex flashing parameters that regular workshops cannot touch."
     bullets:
       - "ECU / ECM adaptation & pairing"
       - "Component protection removal"
