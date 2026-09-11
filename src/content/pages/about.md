@@ -1,14 +1,23 @@
 ---
-template: about-page
+template: about-page2
 slug: /about
 title: About Moks Auto
+description: Premium automotive repair specialists in Blantyre, Malawi with over 15 years of technical expertise.
+introTitle: Dealership-Level Expertise. Local Commitment.
+introText: "Moks Auto was founded on a simple principle: providing the most advanced automotive diagnostic, tuning, and coding solutions in Malawi without the long wait times and massive costs of traditional dealerships. Based in Blantyre, we invest heavily in factory-level diagnostic machines and advanced tuning software to serve personal vehicle owners and commercial fleet operations alike."
+stats:
+  - number: "15+"
+    label: "Years Experience"
+  - number: "100%"
+    label: "Advanced Diagnostics"
+  - number: "Multi"
+    label: "Brand Capability"
+featuresTitle: Why Drivers Choose Moks Auto
+featuresList:
+  - title: "Advanced Technical Tooling"
+    description: "We don't guess; we know. Our workshop uses the same highly specialized diagnostic interfaces and engineering software as corporate dealerships to pinpoint exact faults."
+  - title: "ECU Tuning & Remapping"
+    description: "We specialize in custom engine management software calibration, helping logistics fleets reduce fuel consumption and personal cars achieve optimal performance for long roads."
+  - title: "Emergency Locksmith Support"
+    description: "Lost all keys or dealing with a corrupted vehicle immobilizer system? Our mobile unit matches new transponder keys and modules on-site to get you moving fast."
 ---
-Moks Auto are professionally backed automotive repair specialists based in Blantyre, Malawi. With experience in the industry for over 15 years.
-
-Moks Auto and its employees only adhere to and with expertise, experience and well-equipped tools backed by a proficient cooperative team. 
-
-Moks Auto deals with various multi-brands of both light and heavy duty diesel & petrol, 12 & 24 volt vehicles and other automotive related vehicles and/or equipment.
-
-Our services range from advanced non-intrusive diagnostics, repairs, maintenance, coding, programming, flashing, tuning, locksmith work, immobilizers, etc. 
-
-Moks Auto is ever striving for a better today & tomorrow by aiding Malawi's automotive industry.
