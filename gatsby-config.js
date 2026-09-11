@@ -48,7 +48,6 @@ module.exports = {
               loading: "lazy",
             },
           },
-          
           `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-prismjs`,
@@ -60,7 +59,7 @@ module.exports = {
               noInlineHighlight: false,
               // By default the HTML entities <>&'" are escaped.
               // Add additional HTML escapes by providing a mapping
-              // of HTML entities and their escape value IE: { '}': '&#123;' }
+              // of HTML entities and their escape value IE: { '}': '{' }
               escapeEntities: {},
             },
           },
@@ -74,12 +73,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        // Explicitly wrapping the json string value inside the array
         trackingIds: [
           `${settings.ga}`
         ],
         pluginConfig: {
           head: true,
+          // ⚠️ CRUCIAL FOR COMPLIANCE: Respects Do Not Track signals and consent toggles
+          respectDNT: true, 
         },
       },
     },

@@ -9,6 +9,7 @@ import Navigation from "./navigation"
 import "../assets/scss/style.scss"
 import Footer from "./footer"
 import Theme from "../components/theme"
+import CookieBanner from "./cookie-banner" // 👈 1. Imported the banner here
 
 const query = graphql`
   query LayoutQuery {
@@ -21,7 +22,7 @@ const query = graphql`
 `
 
 const Layout = ({ children, className, props }) => {
-  const { site, siteSearchIndex } = useStaticQuery(query)
+  const { site } = useStaticQuery(query) // 👈 Cleaned up the unused siteSearchIndex destructuring
   const { siteTitle } = site.siteMetadata
 
   return (
@@ -39,6 +40,9 @@ const Layout = ({ children, className, props }) => {
       </Header>
       <main className={"container " + className}>{children}</main>
       <Footer />
+      
+      {/* 👈 2. Injected the Cookie Banner globally right here */}
+      <CookieBanner /> 
     </div>
   )
 }
