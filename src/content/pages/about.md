@@ -19,7 +19,7 @@ featuresList:
   - title: "ECU Tuning & Remapping"
     description: "We specialize in custom engine management software calibration, helping logistics fleets reduce fuel consumption and personal cars to achieve optimal performance."
   - title: "Module Repair & Cloning"
-    description: "We offer module repairs and cloning, helping you reduce dealer level costs and retaining all original features"
+    description: "We offer module repairs and cloning, helping you reduce dealer level costs and retaining all original features."
   - title: "Emergency Locksmith Support"
     description: "Lost all keys, need a spare, or dealing with a corrupted vehicle immobilizer system? Our team matches new transponder keys and modules on-site to get you moving fast."
 ---

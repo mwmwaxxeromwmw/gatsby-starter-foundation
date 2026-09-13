@@ -38,14 +38,7 @@ const Contact = ({ data }) => {
       <div sx={contactStyles.wrapper}>
         <h1 sx={contactStyles.mainTitle}>{frontmatter.title}</h1>
         
-        {/* Top Text Content Layer */}
-        <div
-          className="description"
-          dangerouslySetInnerHTML={{ __html: html }}
-          sx={contactStyles.descriptionText}
-        />
-
-        {/* Visual Map Anchor */}
+                {/* Visual Map Anchor */}
         <div sx={contactStyles.mapContainer}>
           <h3 sx={contactStyles.sectionHeading}>📍 Our Location</h3>
           <p sx={contactStyles.mapLabel}>Serving Blantyre and surrounding regions across Malawi.</p>
@@ -57,6 +50,13 @@ const Contact = ({ data }) => {
             </div>
           </div>
         </div>
+
+        {/* Top Text Content Layer */}
+        <div
+          className="description"
+          dangerouslySetInnerHTML={{ __html: html }}
+          sx={contactStyles.descriptionText}
+        />
 
         {/* Dynamic Service Request Card */}
         <div sx={contactStyles.formCard}>
