@@ -46,7 +46,7 @@ const Contact = ({ data }) => {
             <div sx={contactStyles.mapPlaceholderText}>
               🗺️ <strong>Moks Auto</strong><br />
               Limbe<br />
-              <span sx={{ fontSize: "13px", opacity: 0.8 }}>Dealership-Level Diagnostics & Mobile Locksmith Services</span>
+              <span sx={{ fontSize: "13px", opacity: 0.8 }}>Dealership-Level Diagnostics, Programming, Remapping & Locksmith Services</span>
             </div>
           </div>
         </div>
