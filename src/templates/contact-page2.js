@@ -45,7 +45,7 @@ const Contact = ({ data }) => {
           <div sx={contactStyles.mapFrame}>
             <div sx={contactStyles.mapPlaceholderText}>
               🗺️ <strong>Moks Auto</strong><br />
-              Blantyre, Malawi<br />
+              Limbe<br />
               <span sx={{ fontSize: "13px", opacity: 0.8 }}>Dealership-Level Diagnostics & Mobile Locksmith Services</span>
             </div>
           </div>
